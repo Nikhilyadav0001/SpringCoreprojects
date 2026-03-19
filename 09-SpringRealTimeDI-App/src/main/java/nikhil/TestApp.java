@@ -13,13 +13,14 @@ import nikhil.controller.CustomerController;
 
 
 public class TestApp {
+	private static Scanner scanner;
+
 	public static void main(String[] args) {
 
 		// starting the container
 		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-		// Reading inputs from the user
-		Scanner scanner = new Scanner(System.in);
+		scanner = new Scanner(System.in);
 	
 		System.out.print("Enter the customerName:: ");
 		String name = scanner.next();
