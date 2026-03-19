@@ -45,7 +45,7 @@ public class Employee implements Serializable {
 	@Value("#{10<20 ? 5000 : 3000}")
 	private Float salary;
 
-	@Value("#{T(java.time.LocalDate).of(1993,1,3)}")
+	@Value("#{T(java.time.LocalDate).of(2006,04,17)}")
 	private LocalDate dob;
 
 	@Override
