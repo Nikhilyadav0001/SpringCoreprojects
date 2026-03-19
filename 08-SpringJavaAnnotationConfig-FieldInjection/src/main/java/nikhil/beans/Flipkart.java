@@ -32,7 +32,7 @@ public class Flipkart {
 		String msg = courier.deliver(new Random().nextInt(1000));
 		
 		
-		return Arrays.toString(items)+
+		return msg+Arrays.toString(items)+
 				"with prices"+Arrays.toString(prices)+
 				"having bill amount ="+billamount;
 	}
